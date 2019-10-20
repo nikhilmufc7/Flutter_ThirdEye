@@ -1,5 +1,6 @@
 # Flutter : Third Eye
 
+Repo for HackInOut Bangalore 2019
 
 ## Idea
 
