@@ -114,14 +114,14 @@ class _HomePageState extends State<HomePage> {
     TextRecognizer recognizeText = FirebaseVision.instance.textRecognizer();
     VisionText readText = await recognizeText.processImage(ourImage);
 
-    for (TextBlock block in readText.blocks) {
-//      for (TextLine line in block.lines) {
-//        for (TextElement word in line.elements) {
-//          w = w + " "+ block.text;
-      print(block.text);
+//    for (TextBlock block in readText.blocks) {
+////      for (TextLine line in block.lines) {
+////        for (TextElement word in line.elements) {
+////          w = w + " "+ block.text;
+//      print(block.text);
 
-      words = block.text;
-    }
+      words = readText.text;
+//    }
 //      }
 //    }
 
@@ -137,6 +137,8 @@ class _HomePageState extends State<HomePage> {
         _speak();
       });
     }
+
+
   }
 
   @override
