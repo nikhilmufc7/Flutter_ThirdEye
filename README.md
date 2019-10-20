@@ -31,3 +31,6 @@ We were really inspired by Vikas's talk in the conference where he talked about 
 
 #### This was built under 20 hours at HackInOut Bangalore.
 
+#### Watch it here [ThirdEye](https://youtu.be/4JjZRfd8t8A)
+
+[![ThirdEye](http://img.youtube.com/vi/4JjZRfd8t8A/0.jpg)](http://www.youtube.com/watch?v=4JjZRfd8t8A)
