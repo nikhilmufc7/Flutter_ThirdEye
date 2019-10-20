@@ -18,7 +18,7 @@ We were really inspired by Vikas's talk in the conference where he talked about 
 ## Running
 
 ``` 
-  git clone https://github.com/nikhilmufc7/Flutter_ML.git
+  git clone https://github.com/nikhilmufc7/Flutter_ThirdEye.git
   cd Flutter_ML
   flutter run
 ```
